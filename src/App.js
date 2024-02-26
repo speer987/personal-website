@@ -28,15 +28,15 @@ function App() {
         <a href="#title-four">
           <button id="button-four">Work Experience</button>
         </a>
-        <div id="title-one">Experience</div>
+        <h2 id="title-one">Experience</h2>
         <div id="flex-one">
           <Experience experienceList={experience} />
         </div>
-        <div id="title-two">Projects</div>
+        <h2 id="title-two">Projects</h2>
         <div id="flex-two">
           <Coursework courseList={projects} />
         </div>
-        <div id="title-three">Skills</div>
+        <h2 id="title-three">Skills</h2>
         <div id="card-five" className="skill-card">
           <div className="subheader-three">
             <h3>Python</h3>
@@ -51,7 +51,7 @@ function App() {
             <h3>Firebase/Firestore</h3>
           </div>
         </div>
-        <div id="title-four">Education</div>
+        <h2 id="title-four">Education</h2>
 
         <div id="flex-three">
           <Education degrees={degrees} />
