@@ -317,6 +317,13 @@ li {
   padding: 4px;
 }
 
+img {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  border-radius: 2%;
+}
+
 .subheader-one,
 .subheader-two,
 .subheader-four {

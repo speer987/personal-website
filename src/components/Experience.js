@@ -8,13 +8,17 @@ export default function Experience({ experienceList }) {
         <h4>{experience.time}</h4>
         <h4>{experience.location}</h4>
       </div>
-      <div className="padding">
-        <ul>
-          {experience?.desc.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-      </div>
+      {experience?.desc ? (
+        <div className="padding">
+          <ul>
+            {experience?.desc.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        <div></div>
+      )}
     </div>
   ));
 }

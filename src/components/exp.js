@@ -23,4 +23,15 @@ export const experience = [
       "Explored, analyzed, and aggregated insights from a large data set using Excel and Python to compile actionable information, product design recommendations, and intuitive visualizations in a finalized product pitch which was presented to a Meta Data Scientist and Data Engineer.",
     ],
   },
+  {
+    company: "Loyola Marymount University",
+    role: "CMSI 3802 (Compilers) Student Teaching Assistant",
+    time: "Spring 2024",
+    location: "Los Angeles, California",
+  },
+  {
+    company: "The American School of Doha",
+    role: "Student Teaching Assistant",
+    desc: [],
+  },
 ];
