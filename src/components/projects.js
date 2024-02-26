@@ -11,7 +11,7 @@ export const projects = [
   {
     course: "Web Application Development",
     university: "Loyola Marymount University",
-    desc: ["I like pie."],
+    // desc: ["I like pie."],
   },
   {
     course: "Web Design for Non-Profit Organizations",
