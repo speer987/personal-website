@@ -1,8 +1,8 @@
 :root {
-  --course-color: #FF8787;
-  --education-color: #F8C4B4;
-  --hackathon-color: #E5EBB2;
-  --experience-color: #BCE29E;
+  --first-color: #ffa3a3;
+  --second-color: #F8C4B4;
+  --third-color: #E5EBB2;
+  --fourth-color: #BCE29E;
   --text-color: #192841;
   --primary-font: 'Syne', sans-serif;
   --secondary-font: 'Montserrat', sans-serif;
@@ -49,22 +49,22 @@ h1 {
 
 #button-one {
   grid-area: button-one;
-  background-color: var(--course-color);
+  background-color: var(--first-color);
 }
 
 #button-two {
   grid-area: button-two;
-  background-color: var(--education-color);
+  background-color: var(--second-color);
 }
 
 #button-three {
   grid-area: button-three;
-  background-color: var(--hackathon-color);
+  background-color: var(--third-color);
 }
 
 #button-four {
   grid-area: button-four;
-  background-color: var(--experience-color);
+  background-color: var(--fourth-color);
 }
 
 p {
@@ -83,6 +83,7 @@ p {
 
 #contact {
   grid-area: contact;
+  display: flex;
 }
 
 #title-one,
@@ -97,22 +98,22 @@ p {
 
 #title-one {
   grid-area: title-one;
-  text-shadow: 1.5px 1.5px var(--course-color);
+  text-shadow: 1.5px 1.5px var(--first-color);
 }
 
 #title-two {
   grid-area: title-two;
-  text-shadow: 1.5px 1.5px var(--education-color);
+  text-shadow: 1.5px 1.5px var(--second-color);
 }
 
 #title-three {
   grid-area: title-three;
-  text-shadow: 1.5px 1.5px var(--hackathon-color);
+  text-shadow: 1.5px 1.5px var(--third-color);
 }
 
 #title-four {
   grid-area: title-four;
-  text-shadow: 1.5px 1.5px var(--experience-color);
+  text-shadow: 1.5px 1.5px var(--fourth-color);
 }
 
 #card-one,
@@ -144,6 +145,8 @@ p {
 
 #card-five {
   grid-area: card-five;
+  display: flex;
+  align-items: baseline;
 }
 
 #card-six {
@@ -158,36 +161,34 @@ p {
   grid-area: card-eight;
 }
 
-#card-seven,
-#card-eight {
-  border: 2px solid var(--experience-color);
-  border-radius: 7px;
-  width: calc(50% - 10px);
-  margin-bottom: 10px;
+#course {
+  border: 2px solid var(--second-color);
 }
 
-#card-three,
-#card-four {
-  border: 2px solid var(--education-color);
-  border-radius: 7px;
-  width: calc(50% - 10px);
-  margin-bottom: 10px;
+#education {
+  border: 2px solid var(--fourth-color);
 }
 
-#card-one,
-#card-two {
-  border: 2px solid var(--course-color);
+#experience {
+  border: 2px solid var(--first-color);
+}
+
+.card {
   border-radius: 7px;
-  width: calc(50% - 10px);
+  width: 100%;
   margin-bottom: 10px;
+  background-color: white;
+}
+
+.skill-card {
+  width: 100%;
 }
 
 #contact {
   grid-area: contact;
   display: grid;
   grid-template-areas: 
-  'github linkedin mail'
-  'download download download';
+  'github linkedin';
   gap: 15px;
 }
 
@@ -200,6 +201,9 @@ p {
   background-color: var(--text-color);
   transition: all ease-in 0.3s;
   border: 0px;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
 }
 
 #github:hover,
@@ -210,19 +214,15 @@ p {
 }
 
 #github:hover {
-  box-shadow: 5px 5px 0px var(--course-color);
+  box-shadow: 5px 5px 0px var(--first-color);
 }
 
 #linkedin:hover {
-  box-shadow: 5px 5px 0px var(--education-color);
+  box-shadow: 5px 5px 0px var(--second-color);
 }
 
 #mail:hover {
-  box-shadow: 5px 5px 0px var(--hackathon-color);
-}
-
-#download:hover {
-  box-shadow: 5px 5px 0px var(--experience-color);
+  box-shadow: 5px 5px 0px var(--third-color);
 }
 
 #github {
@@ -275,7 +275,7 @@ p {
   'title-two title-two title-two title-two'
   'flex-two flex-two flex-two flex-two'
   'title-three title-three title-three title-three'
-  'card-five card-five card-six card-six'
+  'card-five card-five card-five card-five'
   'title-four title-four title-four title-four'
   'flex-three flex-three flex-three flex-three';
   grid-template-columns: 25fr 25fr 25fr 25fr;
@@ -326,26 +326,27 @@ li {
 }
 
 .subheader-two {
-  border: 5px solid var(--education-color);
-  background-color: var(--education-color);
+  border: 5px solid var(--fourth-color);
+  background-color: var(--fourth-color);
 }
 
 .subheader-one {
-  border: 5px solid var(--course-color);
-  background-color: var(--course-color);
+  border: 5px solid var(--second-color);
+  background-color: var(--second-color);
 }
 
 .subheader-three {
-  border: 5px solid var(--hackathon-color);
-  background-color: var(--hackathon-color);
+  border: 5px solid var(--third-color);
+  background-color: var(--third-color);
   border-radius: 5px;
-  margin: 0px;
   padding: 15px;
+  margin-right: 10px;
+  width: auto;
 }
 
 .subheader-four {
-  border: 5px solid var(--experience-color);
-  background-color: var(--experience-color);
+  border: 5px solid var(--first-color);
+  background-color: var(--first-color);
 }
 
 .inner-header {
