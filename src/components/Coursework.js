@@ -32,23 +32,18 @@ export default function Coursework({ courseList }) {
         {courseInfo?.preview ? (
           <div className="extra-padding">
             <h5>Preview</h5>
-            <h4 className="extra-padding">
+            <div className="extra-padding flex">
               <h4>
-                <a
-                  className="button-two "
-                  href={courseInfo.preview.project}
-                  target="_blank"
-                >
+                <a href={courseInfo.preview.project} target="_blank">
                   Project
                 </a>
               </h4>
-
-              <h4>
+              <h4 className="extra-padding">
                 <a href={courseInfo.preview.code} target="_blank">
                   Code
                 </a>
               </h4>
-            </h4>
+            </div>
           </div>
         ) : (
           <div></div>

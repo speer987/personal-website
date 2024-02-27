@@ -6,30 +6,35 @@ import { degrees } from "./components/edu";
 import Experience from "./components/Experience";
 import { experience } from "./components/exp";
 import { skills } from "./components/skills";
+import Header from "./components/Header";
+import AnchorButton from "./components/AnchorButton";
 
 function App() {
   return (
     <div>
       <div id="grid">
-        <div id="header">
-          <h1>Saarah Peer</h1>
-          <p>
-            Hi! I am a Computer Science major and Statistics and Data Science
-            minor at Loyola Marymount University.
-          </p>
-        </div>
-        <a href="#title-one">
-          <button id="button-one">Experience</button>
-        </a>
-        <a href="#title-two">
-          <button id="button-two">Projects</button>
-        </a>
-        <a href="#title-three">
-          <button id="button-three">Skills</button>
-        </a>
-        <a href="#title-four">
-          <button id="button-four">Education</button>
-        </a>
+        <Header
+          role={
+            "Computer Science major and Statistics and Data Science minor at Loyola Marymount University"
+          }
+        />
+        <AnchorButton
+          href={"#title-one"}
+          id={"button-one"}
+          text={"Experience"}
+        />
+        <AnchorButton href={"#title-two"} id={"button-two"} text={"Projects"} />
+        <AnchorButton
+          href={"#title-three"}
+          id={"button-three"}
+          text={"Skills"}
+        />
+        <AnchorButton
+          href={"#title-four"}
+          id={"button-four"}
+          text={"Education"}
+        />
+
         <h2 id="title-three">Skills</h2>
 
         <h2 id="title-one">Experience</h2>
