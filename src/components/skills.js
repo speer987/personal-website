@@ -1,1 +1,2 @@
-export const skills = ["Python", "React.js"];
+const skills = ["Python", "React.js"];
+export default skills;

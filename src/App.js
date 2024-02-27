@@ -1,15 +1,13 @@
 import "./App.css";
-import {
-  projects,
-  degrees,
-  skills,
-  Header,
-  NavBar,
-  ExperienceBlock,
-  SkillsBlock,
-  CourseBlock,
-  EducationBlock,
-} from "./components";
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
+import ExperienceBlock from "./components/ExperienceBlock";
+import CourseBlock from "./components/CourseBlock";
+import projects from "./components/projects";
+import SkillsBlock from "./components/SkillsBlock";
+import skills from "./components/skills";
+import EducationBlock from "./components/EducationBlock";
+import degrees from "./components/edu";
 
 function App() {
   return (

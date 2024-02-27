@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     course: "Medication and Health Tracking App",
     university: "Loyola Marymount University",
@@ -58,3 +58,5 @@ export const projects = [
     // desc: [],
   },
 ];
+
+export default projects;

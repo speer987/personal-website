@@ -1,4 +1,4 @@
-export const degrees = [
+const degrees = [
   {
     university: "Loyola Marymount University",
     degree: "B.S. in Computer Science",
@@ -44,3 +44,5 @@ export const degrees = [
     ],
   },
 ];
+
+export default degrees;
