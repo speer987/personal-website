@@ -8,6 +8,7 @@ export const projects = [
       "Evaluated classmates’ prototype designs to learn the importance of aesthetics and designing with the end user in mind to create interfaces.",
     ],
     tech: ["Figma", "HCI Design Principles", "Documentation"],
+    preview: "google.com",
   },
   {
     course: "Compound Interest Calculator",

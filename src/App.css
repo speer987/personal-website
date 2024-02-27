@@ -327,6 +327,11 @@ h5 {
 #pill-parent {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 15px;
+}
+
+.extra-padding {
+  padding-left: 15px;
 }
 
 h3,
@@ -393,6 +398,7 @@ img {
 .padding {
   padding: 15px;
   padding-right: 40px;
+  padding-bottom: 35px;
 }
 
 .bold {
