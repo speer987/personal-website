@@ -33,9 +33,19 @@ export default function Coursework({ courseList }) {
           <div className="extra-padding">
             <h5>Preview</h5>
             <h4 className="extra-padding">
-              <a href={courseInfo.preview} target="_blank">
-                {courseInfo.course}
-              </a>
+              <h4>
+                {"Project: "}
+                <a href={courseInfo.preview.project} target="_blank">
+                  {courseInfo.course}
+                </a>
+              </h4>
+
+              <h4>
+                {"Code: "}
+                <a href={courseInfo.preview.code} target="_blank">
+                  {courseInfo.course}
+                </a>
+              </h4>
             </h4>
           </div>
         ) : (

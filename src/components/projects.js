@@ -8,13 +8,16 @@ export const projects = [
       "Evaluated classmates’ prototype designs to learn the importance of aesthetics and designing with the end user in mind to create interfaces.",
     ],
     tech: ["Figma", "HCI Design Principles", "Documentation"],
-    preview: "google.com",
   },
   {
     course: "Compound Interest Calculator",
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
-    tech: ["Javascript", "HTML", "CSS", "Color Theory"],
+    tech: ["Javascript", "HTML", "CSS", "Color Schemes"],
+    preview: {
+      project: "https://speer987.github.io/react-country-finder/",
+      code: "https://github.com/speer987/react-country-finder",
+    },
   },
   {
     course: "React Country Finder Web App",
