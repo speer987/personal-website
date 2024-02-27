@@ -8,8 +8,25 @@
   --secondary-font: 'Montserrat', sans-serif;
 }
 
-.flex {
+.flex,
+.flex-stretch{
   display: flex;
+}
+
+.flex-stretch{
+  justify-content: space-between;
+}
+
+.two-p-padding {
+  padding: 2%;
+}
+
+.no-p-top {
+  padding-top: 0%;
+}
+
+.no-p-bottom {
+  padding-bottom: 0%;
 }
 
 h1 {
@@ -30,16 +47,21 @@ h2 {
 #button-two,
 #button-three,
 #button-four {
-  padding: 10px;
   border-radius: 7px;
   border: 0px;
   font-family: var(--primary-font);
-  font-size: 17px;
+  font-size: 1.25em;
   letter-spacing: 0.01mm;
   transition: all ease-in 0.3s;
   color: var(--text-color);
   height: 100%;
-  width:100%;
+  width: 100%;
+  padding: 4%;
+}
+
+.custom-a {
+  width:24%;
+  justify-content: space-between;
 }
 
 #button-one:hover,
@@ -59,22 +81,18 @@ h2 {
 }
 
 #button-one {
-  grid-area: button-one;
   background-color: var(--first-color);
 }
 
 #button-two {
-  grid-area: button-two;
   background-color: var(--second-color);
 }
 
 #button-three {
-  grid-area: button-three;
   background-color: var(--third-color);
 }
 
 #button-four {
-  grid-area: button-four;
   background-color: var(--fourth-color);
 }
 
@@ -87,14 +105,12 @@ p {
 }
 
 #header {
-  grid-area: header;
-  padding: 15px;
-  padding-left: 0px;
+  width: 76%;
 }
 
 #contact {
-  grid-area: contact;
   display: flex;
+  width: 24%;
 }
 
 #title-one,
@@ -102,27 +118,27 @@ p {
 #title-three,
 #title-four {
   font-family: var(--primary-font);
-  padding-top: 20px;
   color: var(--text-color);
+  padding-bottom: 2%;
+}
+
+.one-p-bottom {
+  padding-bottom: 1%;
 }
 
 #title-one {
-  grid-area: title-one;
   text-shadow: 1.5px 1.5px var(--first-color);
 }
 
 #title-two {
-  grid-area: title-two;
   text-shadow: 1.5px 1.5px var(--second-color);
 }
 
 #title-three {
-  grid-area: title-three;
   text-shadow: 1.5px 1.5px var(--third-color);
 }
 
 #title-four {
-  grid-area: title-four;
   text-shadow: 1.5px 1.5px var(--fourth-color);
 }
 
@@ -137,38 +153,9 @@ p {
   background-color: white;
 }
 
-#card-one {
-  grid-area: card-one;
-}
-
-#card-two {
-  grid-area: card-two;
-}
-
-#card-three {
-  grid-area: card-three;
-}
-
-#card-four {
-  grid-area: card-four;
-}
-
 #card-five {
-  grid-area: card-five;
   display: flex;
   align-items: baseline;
-}
-
-#card-six {
-  grid-area: card-six;
-}
-
-#card-seven {
-  grid-area: card-seven;
-}
-
-#card-eight {
-  grid-area: card-eight;
 }
 
 #course {
@@ -186,7 +173,7 @@ p {
 .card {
   border-radius: 7px;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   background-color: white;
 }
 
@@ -273,28 +260,6 @@ p {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-#grid {
-  display: grid;
-  grid-template-areas: 
-  'header header header contact'
-  'button-one button-two button-three button-four'
-  'title-one title-one title-one title-one'
-  'flex-one flex-one flex-one flex-one'
-  'title-two title-two title-two title-two'
-  'flex-two flex-two flex-two flex-two'
-  'title-three title-three title-three title-three'
-  'card-five card-five card-five card-five'
-  'title-four title-four title-four title-four'
-  'flex-three flex-three flex-three flex-three';
-  grid-template-columns: 25fr 25fr 25fr 25fr;
-  gap: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 75px;
-  margin-bottom: 35px;
-  background-color: none;
 }
 
 h4 {
@@ -432,20 +397,17 @@ img {
 
 body {
   background-color: white;
-  /* background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23f5f5f5' fill-opacity='0.61' fill-rule='evenodd'/%3E%3C/svg%3E"); */
+}
+
+#body-wo-footer {
+  padding: 15%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 #linkedin,
-#github,
-#download,
-#mail {
-  font-family: var(--secondary-font);
-  font-weight: bold;
+#github
+{
   color: white;
-}
-
-#linkedin,
-#github,
-#mail {
   font-size: 25px;
 }
