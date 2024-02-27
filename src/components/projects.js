@@ -14,16 +14,16 @@ export const projects = [
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
     tech: ["Javascript", "HTML", "CSS", "Color Schemes"],
-    preview: {
-      project: "https://speer987.github.io/react-country-finder/",
-      code: "https://github.com/speer987/react-country-finder",
-    },
   },
   {
     course: "React Country Finder Web App",
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
     tech: ["React.js", "HTML", "CSS", "Javascript", "Rest Countries API"],
+    preview: {
+      project: "https://speer987.github.io/react-country-finder/",
+      code: "https://github.com/speer987/react-country-finder",
+    },
   },
   {
     course: "React Book Tracking App (The Book Nook)",

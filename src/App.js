@@ -5,6 +5,7 @@ import Education from "./components/Education";
 import { degrees } from "./components/edu";
 import Experience from "./components/Experience";
 import { experience } from "./components/exp";
+import { skills } from "./components/skills";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         <a href="#title-four">
           <button id="button-four">Education</button>
         </a>
+        <h2 id="title-three">Skills</h2>
+
         <h2 id="title-one">Experience</h2>
         <div id="flex-one">
           <Experience experienceList={experience} />
@@ -37,25 +40,24 @@ function App() {
         <div id="flex-two">
           <Coursework courseList={projects} />
         </div>
-        <h2 id="title-three">Skills</h2>
-        {/* <div id="card-five" className="pill-parent">
-          <div className="pill-green">Python</div>
-          <h4 className="pill-green">Python</h4>
-          <h4 className="pill-green">Python</h4>
-          <h4 className="pill-green">Python</h4>
-        </div> */}
+        <div className="pill-parent">
+          {skills?.map((skill) => (
+            <div key={skill} className="pill pill-green">
+              {skill}
+            </div>
+          ))}
+        </div>
         <h2 id="title-four">Education</h2>
-
         <div id="flex-three">
           <Education degrees={degrees} />
         </div>
         <div id="contact">
-          <a href="linkedin.com/saarah-peer">
+          <a href="https://linkedin.com/saarah-peer" target="_blank">
             <button id="linkedin">
               <i class="fa fa-linkedin"></i>
             </button>
           </a>
-          <a href="github.com/speer987">
+          <a href="https://github.com/speer987" target="_blank">
             <button src="github.com/speer987" id="github">
               <i class="fa fa-github"></i>
             </button>
