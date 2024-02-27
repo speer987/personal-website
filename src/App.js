@@ -13,7 +13,8 @@ function App() {
         <div id="header">
           <h1>Saarah Peer</h1>
           <p>
-            Hi! I am a Computer Science major at Loyola Marymount University.
+            Hi! I am a Computer Science major and Statistics and Data Science
+            minor at Loyola Marymount University.
           </p>
         </div>
         <a href="#title-one">
