@@ -17,16 +17,16 @@ function App() {
           </p>
         </div>
         <a href="#title-one">
-          <button id="button-one">Projects</button>
+          <button id="button-one">Experience</button>
         </a>
         <a href="#title-two">
-          <button id="button-two">Education</button>
+          <button id="button-two">Projects</button>
         </a>
         <a href="#title-three">
-          <button id="button-three">Hackathons</button>
+          <button id="button-three">Skills</button>
         </a>
         <a href="#title-four">
-          <button id="button-four">Work Experience</button>
+          <button id="button-four">Education</button>
         </a>
         <h2 id="title-one">Experience</h2>
         <div id="flex-one">

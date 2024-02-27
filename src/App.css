@@ -307,6 +307,28 @@ h3 {
   font-family: var(--primary-font);
 }
 
+h5 {
+  font-size: 18px;
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  margin: 10px;
+}
+
+.pill {
+  background-color: #F8C4B4;
+  padding: 10px;
+  margin: 3px;
+  width: auto;
+  border-radius: 5px;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+}
+
+#pill-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 h3,
 h4,
 p {
@@ -316,7 +338,7 @@ p {
 
 ul {
   font-family: var(--secondary-font);
-  font-size: 15px;
+  font-size: 16px;
   color: var(--text-color);
 }
 
