@@ -38,20 +38,12 @@ function App() {
           <Coursework courseList={projects} />
         </div>
         <h2 id="title-three">Skills</h2>
-        <div id="card-five" className="skill-card">
-          <div className="subheader-three">
-            <h3>Python</h3>
-          </div>
-          <div className="subheader-three">
-            <h3>Java</h3>
-          </div>
-          <div className="subheader-three">
-            <h3>React.js</h3>
-          </div>
-          <div className="subheader-three">
-            <h3>Firebase/Firestore</h3>
-          </div>
-        </div>
+        {/* <div id="card-five" className="pill-parent">
+          <div className="pill-green">Python</div>
+          <h4 className="pill-green">Python</h4>
+          <h4 className="pill-green">Python</h4>
+          <h4 className="pill-green">Python</h4>
+        </div> */}
         <h2 id="title-four">Education</h2>
 
         <div id="flex-three">

@@ -10,9 +10,11 @@ export default function Education({ degrees }) {
       </div>
       <div className="padding">
         <p className="inner-header">Relevant Coursework</p>
-        <ul className="one-liners">
+        <ul className="one-liners pill-parent">
           {degreeInfo?.courses.map((item) => (
-            <li key={item}>{item}</li>
+            <div className="pill pill-dark-green" key={item}>
+              {item}
+            </div>
           ))}
         </ul>
         <p className="inner-header">Honors and Awards</p>

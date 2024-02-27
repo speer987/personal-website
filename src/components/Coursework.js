@@ -18,9 +18,9 @@ export default function Coursework({ courseList }) {
         {courseInfo?.tech ? (
           <div className="extra-padding">
             <h5>Technologies & Skills Used</h5>
-            <div id="pill-parent">
+            <div className="pill-parent">
               {courseInfo?.tech.map((skill) => (
-                <div className="pill" key={skill}>
+                <div className="pill pill-pink" key={skill}>
                   {skill}
                 </div>
               ))}

@@ -314,8 +314,12 @@ h5 {
   margin: 10px;
 }
 
+.pill-pink {
+  border: 2px #F8C4B4 solid;
+  background-color: #f8c4b44e;
+}
+
 .pill {
-  background-color: #F8C4B4;
   padding: 10px;
   margin: 3px;
   width: auto;
@@ -324,7 +328,17 @@ h5 {
   font-size: 16px;
 }
 
-#pill-parent {
+.pill-dark-green {
+  border: 2px #BCE29E solid;
+  background-color: #bbe29e59;
+}
+
+.pill-green {
+  border: 2px #E5EBB2 solid;
+  background-color: #e5ebb256;
+}
+
+.pill-parent {
   display: flex;
   flex-wrap: wrap;
   padding-left: 15px;
