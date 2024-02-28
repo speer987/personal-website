@@ -31,14 +31,14 @@
 
 h1 {
   font-family: var(--primary-font);
-  font-size: 45px;
+  font-size: 2.8em;
   margin: 0px;
   color: var(--text-color);
 }
 
 h2 {
   font-family: var(--primary-font);
-  font-size: 30px;
+  font-size: 35px;
   margin: 0px;
   color: var(--text-color);
 }
@@ -57,6 +57,8 @@ h2 {
   height: 100%;
   width: 100%;
   padding: 4%;
+  padding-bottom: 6%;
+  padding-top: 6%;
 }
 
 .custom-a {
@@ -290,7 +292,6 @@ h5 {
 .pill {
   padding: 10px;
   margin: 3px;
-  width: auto;
   border-radius: 5px;
   font-family: var(--secondary-font);
   font-size: 16px;
