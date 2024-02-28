@@ -26,7 +26,12 @@ const projects = [
     },
   },
   {
-    course: "React Book Tracking App (The Book Nook)",
+    course: "React Nutrition Web App",
+    university: "Loyola Marymount University",
+    // desc: ["I like pie."],
+  },
+  {
+    course: "React Book Wishlist/Tracking Web App (The Book Nook)",
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
     tech: [
@@ -51,6 +56,11 @@ const projects = [
       "Designed and developed a fully functional website using the Wix CMS to assist a person with disabilities in showcasing their skills and building their professional network.",
       "Bolstered communication skills and developed a good eye for design through constant discussion with a client to build a professional website layout that suited their needs.",
     ],
+  },
+  {
+    course: "Command Line Utility (mkfid - Make File in Directory)",
+    university: "Loyola Marymount University",
+    desc: [],
   },
   {
     course: "Rose Hack",
