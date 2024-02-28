@@ -1,6 +1,6 @@
 const projects = [
   {
-    course: "Medication and Health Tracking App",
+    course: "Medication Tracking App Prototype (BetterHealth App)",
     university: "Loyola Marymount University",
     desc: [
       "Applied several HCI principles learned throughout the semester in a group project to ideate, design and build an app prototype to remind forgetful medicine takers to record their mood and dose intake.",
@@ -45,7 +45,7 @@ const projects = [
     ],
   },
   {
-    course: "Web Design for Non-Profit Organizations",
+    course: "Website for Client with Special Needs",
     university: "Pace University",
     desc: [
       "Designed and developed a fully functional website using the Wix CMS to assist a person with disabilities in showcasing their skills and building their professional network.",
