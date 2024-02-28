@@ -9,7 +9,6 @@ const projects = [
     ],
     tech: [
       "Application Interface Design",
-      "Kapwing",
       "Teamwork",
       "HCI Design Principles",
       "Prototyping",
@@ -23,8 +22,8 @@ const projects = [
     // desc: ["I like pie."],
     tech: ["HTML", "CSS", "JavaScript", "Google Fonts", "Color Schemes"],
     preview: [
-      ["GitHub", "speer987.github.io/compound-interest-calculator/"],
-      ["CodeSandbox", "https://loxvgn.csb.app/"],
+      ["On GitHub Pages", "speer987.github.io/compound-interest-calculator/"],
+      ["On CodeSandbox", "https://loxvgn.csb.app/"],
     ],
     code: [
       ["GitHub", "https://github.com/speer987/compound-interest-calculator"],
@@ -48,8 +47,8 @@ const projects = [
       "Google Fonts",
     ],
     preview: [
-      ["GitHub", "https://speer987.github.io/react-country-finder/"],
-      ["CodeSandbox", "https://q839ng.csb.app/"],
+      ["On GitHub Pages", "https://speer987.github.io/react-country-finder/"],
+      ["On CodeSandbox", "https://q839ng.csb.app/"],
     ],
     code: [
       ["GitHub", "https://github.com/speer987/react-country-finder"],
@@ -63,6 +62,16 @@ const projects = [
     course: "React Nutrition Web App",
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
+    tech: [
+      "React",
+      "Spoonacular API",
+      "CSS",
+      "HTML",
+      "Firebase/Firestore",
+      "Google Authentication",
+      "Google Fonts",
+    ],
+    code: [["Github", "https://github.com/joanna-estrada/nutrition"]],
   },
   {
     course: "React Book Wishlist/Tracking Web App (The Book Nook)",
@@ -76,12 +85,17 @@ const projects = [
       "Google Books API",
       "Firebase Authentication",
       "Firestore",
+      "Firebase Hosting",
       "New York Times Best Selling Book API",
       "Chart.js",
       "Tailwind CSS",
       "Gantt Charts",
       "Weekly Presentations",
+      "Peer Reviews",
+      "Poster Boarding",
     ],
+    code: [["Github", "https://github.com/speer987/the-book-nook"]],
+    preview: [["On Firebase Hosting", "https://the-book-nook-5c098.web.app/"]],
   },
   {
     course: "Website for Client with Special Needs",
