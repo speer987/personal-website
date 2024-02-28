@@ -35,7 +35,7 @@ export default function Coursework({ courseList }) {
             <div className="flex">
               {courseInfo?.preview?.map((item) => (
                 <h4 className="extra-padding" key={item}>
-                  <a href={item[1]} target="_blank">
+                  <a className="custom-a" href={item[1]} target="_blank">
                     {item[0]}
                   </a>
                 </h4>
@@ -51,7 +51,7 @@ export default function Coursework({ courseList }) {
             <div className="flex">
               {courseInfo?.code?.map((item) => (
                 <h4 className="extra-padding" key={item}>
-                  <a href={item[1]} target="_blank">
+                  <a className="custom-a" href={item[1]} target="_blank">
                     {item[0]}
                   </a>
                 </h4>

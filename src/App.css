@@ -43,6 +43,15 @@ h2 {
   color: var(--text-color);
 }
 
+.custom-a {
+  text-decoration: none;
+}
+
+.custom-a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #button-one,
 #button-two,
 #button-three,

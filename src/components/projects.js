@@ -22,6 +22,17 @@ const projects = [
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
     tech: ["HTML", "CSS", "JavaScript", "Google Fonts", "Color Schemes"],
+    preview: [
+      ["GitHub", "speer987.github.io/compound-interest-calculator/"],
+      ["CodeSandbox", "https://loxvgn.csb.app/"],
+    ],
+    code: [
+      ["GitHub", "https://github.com/speer987/compound-interest-calculator"],
+      [
+        "CodeSandbox",
+        "https://codesandbox.io/p/sandbox/compound-interest-calculator-loxvgn?file=%2Findex.html%3A4%2C29",
+      ],
+    ],
   },
   {
     course: "React Country Data Finder Web App",
