@@ -32,17 +32,30 @@ export default function Coursework({ courseList }) {
         {courseInfo?.preview ? (
           <div className="extra-padding">
             <h5>Preview</h5>
-            <div className="extra-padding flex">
-              <h4>
-                <a href={courseInfo.preview.project} target="_blank">
-                  Project
-                </a>
-              </h4>
-              <h4 className="extra-padding">
-                <a href={courseInfo.preview.code} target="_blank">
-                  Code
-                </a>
-              </h4>
+            <div className="flex">
+              {courseInfo?.preview?.map((item) => (
+                <h4 className="extra-padding" key={item}>
+                  <a href={item[1]} target="_blank">
+                    {item[0]}
+                  </a>
+                </h4>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div></div>
+        )}
+        {courseInfo?.code ? (
+          <div className="extra-padding">
+            <h5>Code</h5>
+            <div className="flex">
+              {courseInfo?.code?.map((item) => (
+                <h4 className="extra-padding" key={item}>
+                  <a href={item[1]} target="_blank">
+                    {item[0]}
+                  </a>
+                </h4>
+              ))}
             </div>
           </div>
         ) : (

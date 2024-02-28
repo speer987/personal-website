@@ -1,29 +1,52 @@
 const projects = [
   {
-    course: "Medication Tracking App Prototype (BetterHealth App)",
+    course: "Medication Tracking App (BetterHealth App)",
     university: "Loyola Marymount University",
     desc: [
       "Applied several HCI principles learned throughout the semester in a group project to ideate, design and build an app prototype to remind forgetful medicine takers to record their mood and dose intake.",
       "Submitted four reports and a 10 minute video that summarized group findings about user research and effectiveness of prototype to improve app design periodically.",
       "Evaluated classmates’ prototype designs to learn the importance of aesthetics and designing with the end user in mind to create interfaces.",
     ],
-    tech: ["Figma", "HCI Design Principles", "Documentation"],
+    tech: [
+      "Application Interface Design",
+      "Kapwing",
+      "Teamwork",
+      "HCI Design Principles",
+      "Prototyping",
+      "Documentation",
+      "Peer Reviews",
+    ],
   },
   {
-    course: "Compound Interest Calculator",
+    course: "Compound Interest Calculator Web App",
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
-    tech: ["Javascript", "HTML", "CSS", "Color Schemes"],
+    tech: ["HTML", "CSS", "JavaScript", "Google Fonts", "Color Schemes"],
   },
   {
-    course: "React Country Finder Web App",
+    course: "React Country Data Finder Web App",
     university: "Loyola Marymount University",
     // desc: ["I like pie."],
-    tech: ["React.js", "HTML", "CSS", "Javascript", "Rest Countries API"],
-    preview: {
-      project: "https://speer987.github.io/react-country-finder/",
-      code: "https://github.com/speer987/react-country-finder",
-    },
+    tech: [
+      "Rest Countries API",
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Color Schemes",
+      "Google Fonts",
+    ],
+    preview: [
+      ["GitHub", "https://speer987.github.io/react-country-finder/"],
+      ["CodeSandbox", "https://q839ng.csb.app/"],
+    ],
+    code: [
+      ["GitHub", "https://github.com/speer987/react-country-finder"],
+      [
+        "CodeSandbox",
+        "https://codesandbox.io/p/sandbox/react-country-data-finder-q839ng?file=%2Fsrc%2Findex.js",
+      ],
+    ],
   },
   {
     course: "React Nutrition Web App",
