@@ -32,6 +32,6 @@ export const experience = [
   {
     company: "The American School of Doha",
     role: "Student Teaching Assistant",
-    desc: [],
+    // desc: [],
   },
 ];

@@ -7,7 +7,7 @@ const projects = [
       "Submitted four reports and a 10 minute video that summarized group findings about user research and effectiveness of prototype to improve app design periodically.",
       "Evaluated classmates’ prototype designs to learn the importance of aesthetics and designing with the end user in mind to create interfaces.",
     ],
-    desc: [],
+    // desc: ["hello"],
     tech: [
       "User Interface Design",
       "Teamwork",
@@ -114,7 +114,8 @@ const projects = [
   {
     course: "Command Line Utility (mkfid - Make File in Directory)",
     university: "Loyola Marymount University",
-    desc: ["C", "Unix", "Presentation Skills", "Teamwork"],
+    // desc: [],
+    tech: ["C", "Unix", "Presentation Skills", "Teamwork"],
   },
   {
     course: "Rose Hack",
