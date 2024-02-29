@@ -24,7 +24,7 @@ function App() {
         <SkillsBlock skills={skills} />
         <EducationBlock degrees={degrees} />
       </div>
-      <div id="credit">Designed with ❤️ by Saarah Peer</div>
+      <div id="credit">Built with ❤️ by Saarah Peer</div>
     </div>
   );
 }
