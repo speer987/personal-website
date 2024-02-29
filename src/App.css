@@ -300,7 +300,10 @@ h5 {
 
 .pill {
   padding: 10px;
-  margin: 3px;
+  margin: 6px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-left: 0px;
   border-radius: 5px;
   font-family: var(--secondary-font);
   font-size: 16px;
