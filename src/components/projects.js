@@ -126,7 +126,7 @@ const projects = [
   {
     course: "Command Line Utility (mkfid - Make File in Directory)",
     university: "Loyola Marymount University",
-    // desc: [],
+    desc: ["I like pie."],
     tech: ["C", "Unix", "Presentation Skills", "Teamwork"],
   },
   {
