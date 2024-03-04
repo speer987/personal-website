@@ -22,7 +22,7 @@ const projects = [
     desc: [
       "Created a React App that uses a combination of HTML, CSS, and React that fetches information such as Common Name, Official Name, Population, Region, Subregion, Flag, Capital, Continent, and Time Zones of countries a user searches for.",
       "Incorporated complex components such as a form with user inputs, which allows for streamlined API calls",
-      "Developed a cohesive and responsive user interface through the use of involved CSS concepts such as grid and flex, while using symmetry in the image layout to create a balanced visual appearance",
+      "Developed a cohesive and responsive user interface through the use of involved CSS concepts such as grid and flex, while using symmetry in the image placement to create a balanced visual appearance",
       "Validated code by using a HTML accessibility validator",
     ],
     tech: [
