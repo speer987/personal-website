@@ -7,7 +7,6 @@ const projects = [
       "Submitted four reports and a 10 minute video that summarized group findings about user research and effectiveness of prototype to improve app design periodically.",
       "Evaluated classmates’ prototype designs to learn the importance of aesthetics and designing with the end user in mind to create interfaces.",
     ],
-    // desc: ["hello"],
     tech: [
       "User Interface Design",
       "Teamwork",
@@ -20,7 +19,12 @@ const projects = [
   {
     course: "React Country Data Finder Web App",
     university: "Loyola Marymount University",
-    // desc: ["I like pie."],
+    desc: [
+      "Created a React App that uses a combination of HTML, CSS, and React that fetches information such as Common Name, Official Name, Population, Region, Subregion, Flag, Capital, Continent, and Time Zones of countries a user searches for.",
+      "Incorporated complex components such as a form with user inputs, which allowed streamlined API calls",
+      "Developed a cohesive and responsive user interface through the use of involved CSS concepts such as grid and flex, while using symmetry in the image layout to create a balanced visual appearance",
+      "Validated code by using a HTML and accessibility validator",
+    ],
     tech: [
       "Rest Countries API",
       "React",
