@@ -49,7 +49,11 @@ const projects = [
   {
     course: "Compound Interest Calculator Web App",
     university: "Loyola Marymount University",
-    // desc: ["I like pie."],
+    desc: [
+      "Developed an app by incorporating various HTML and CSS concepts that allow users to calculate their compound interest",
+      "[ENTER MORE HERE]",
+      "[ENTER MORE HERE]",
+    ],
     tech: ["HTML", "CSS", "JavaScript", "Google Fonts", "Color Schemes"],
     preview: [
       [
@@ -69,7 +73,11 @@ const projects = [
   {
     course: "React Nutrition Web App",
     university: "Loyola Marymount University",
-    // desc: ["I like pie."],
+    desc: [
+      "Worked alongside two others to build a Nutrition App that allows health concious individuals to search for recipes that are within a certain range of calories, carbs etc.",
+      "Wrote documentation that detailed various aspects of the app, which included [ENTER STUFF HERE]",
+      "[ENTER MORE HERE]",
+    ],
     tech: [
       "React",
       "Spoonacular API",
