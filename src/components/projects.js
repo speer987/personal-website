@@ -20,9 +20,9 @@ const projects = [
     course: "React Country Data Finder Web App",
     university: "Loyola Marymount University",
     desc: [
-      "Created a React App that uses a combination of HTML, CSS, and React that fetches information such as Common Name, Official Name, Population, Region, Subregion, Flag, Capital, Continent, and Time Zones of countries a user searches for.",
-      "Incorporated complex components such as a form with user inputs, which allows for streamlined API calls.",
-      "Developed a cohesive and responsive user interface through the use of involved CSS concepts such as grid and flex, while using symmetry in the image placement to create a balanced visual appearance.",
+      "Created a React App that uses a combination of HTML, CSS, and React that fetches information such as Common Name, Official Name, Population, Region, Subregion, Flag, Capital, Continent, and Time Zones of countries a user searches for from the Country API.",
+      "Incorporated complex components such as a form with a user input, which queries the Country API for country details, which are displayed underneath the form.",
+      "Developed a cohesive and responsive user interface through the use of involved CSS concepts such as grid and flex, while using symmetry in the image placement to create a balanced, simple visual appearance.",
       "Validated code by using a HTML accessibility validator.",
     ],
     tech: [
@@ -51,8 +51,11 @@ const projects = [
     university: "Loyola Marymount University",
     desc: [
       "Developed an app by incorporating various HTML and CSS concepts that allow users to calculate their compound interest",
-      "[ENTER MORE HERE]",
-      "[ENTER MORE HERE]",
+      "Used numerous CSS concepts such as transform, border width and color, and grid, which allowed for the symmetrical and responsive placement of images and content.",
+      "Incorporates the use of four different user input fields (one being a number), which are validated upon form submission for easily calculating compound interest.",
+      "Ensured that users are presented with an error message when entering erroneous inputs.",
+      "Embodies a uniform and aesthetically pleasing color scheme",
+      "Utilized basic javascript function knowledge to calculate compound interest before displaying it to the user interface.",
     ],
     tech: ["HTML", "CSS", "JavaScript", "Google Fonts", "Color Schemes"],
     preview: [
