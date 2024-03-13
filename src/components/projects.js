@@ -50,12 +50,11 @@ const projects = [
     course: "Compound Interest Calculator Web App",
     university: "Loyola Marymount University",
     desc: [
-      "Developed an app by incorporating various HTML and CSS concepts that allow users to calculate their compound interest",
+      "Developed an app by incorporating various HTML and CSS concepts that allow users to calculate their compound interest on a uniform and aesthetically pleasing interface.",
       "Used numerous CSS concepts such as transform, border width and color, and grid, which allowed for the symmetrical and responsive placement of images and content.",
       "Incorporates the use of four different user input fields (one being a number), which are validated upon form submission for easily calculating compound interest.",
       "Ensured that users are presented with an error message when entering erroneous inputs.",
-      "Embodies a uniform and aesthetically pleasing color scheme",
-      "Utilized basic javascript function knowledge to calculate compound interest before displaying it to the user interface.",
+      "Utilized a basic javascript function knowledge to calculate compound interest before displaying it to the user interface.",
     ],
     tech: ["HTML", "CSS", "JavaScript", "Google Fonts", "Color Schemes"],
     preview: [
@@ -77,9 +76,11 @@ const projects = [
     course: "React Nutrition Web App",
     university: "Loyola Marymount University",
     desc: [
-      "Worked alongside two others to build a Nutrition App that allows health concious individuals to search for recipes that are within a certain range of calories, carbs etc.",
-      "Wrote documentation that detailed various aspects of the app, which included [ENTER STUFF HERE]",
-      "[ENTER MORE HERE]",
+      "Worked alongside two other team members to build a Nutrition App that allows health concious individuals to search for recipes or to get three randomly generated recipes, which also shows a user's most recent favorited recipe from Firestore.",
+      "Developed a grid form layout with a gradient background to allow users to search for recipes that have a particular max ready time, or amount of max carbs, max protein and max calories.",
+      "Ensured the smooth development of the search and random recipe generator page to display recipes in a 2x2 grid of a 3x1 grid.",
+      "Queried the Spoonacular API to show information on recipe cards such as recipe image, summary, link, favorite recipe button, serving amount, ready time, and a nutrition label.",
+      "Utilized two API endpoints from the Spoonacular API on both the search and random recipe generator.",
     ],
     tech: [
       "React",
