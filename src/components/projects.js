@@ -149,6 +149,7 @@ const projects = [
       "Allowed flexibility for users to create multiple files or a single file in a new folder or a folder of a user's choosing via command flags.",
       "Collaborated with others to brainstorm and implement command flags such as -h for help and -d for directory, which we inspired by other command line utilities.",
       "Worked with others to write documentation and preliminary project development plans, which were later uploaded to GitHub.",
+      "Presented work at project completion to show achievements, project functionality and progress over time",
     ],
     tech: [
       "C",
