@@ -149,6 +149,11 @@ const projects = [
     desc: ["Worked alongside five team members to..."],
   },
   {
+    course: "Museum of Modern Art Graph Database w/ Command Line Interface",
+    university: "Loyola Marymount University",
+    desc: ["Write desc here"],
+  },
+  {
     course: "Command Line Utility (mkfid - Make File in Directory)",
     university: "Loyola Marymount University",
     desc: [
