@@ -24,6 +24,7 @@ const projects = [
       "Incorporated complex components such as a form with a user input, which queries the Country API for country details, which are displayed underneath the form.",
       "Developed a cohesive and responsive user interface through the use of involved CSS concepts such as grid and flex, while using symmetry in the image placement to create a balanced, simple visual appearance.",
       "Validated code by using a HTML accessibility validator.",
+      "Hosted on both GitHub pages and CodeSandbox.",
     ],
     tech: [
       "Rest Countries API",
@@ -55,6 +56,7 @@ const projects = [
       "Incorporates the use of four different user input fields (one being a number), which are validated upon form submission for easily calculating compound interest.",
       "Ensured that users are presented with an error message when entering erroneous inputs.",
       "Utilized a basic javascript function knowledge to calculate compound interest before displaying it to the user interface.",
+      "Hosted on both GitHub pages and CodeSandbox.",
     ],
     tech: ["HTML", "CSS", "JavaScript", "Google Fonts", "Color Schemes"],
     preview: [
@@ -76,11 +78,12 @@ const projects = [
     course: "React Nutrition Web App",
     university: "Loyola Marymount University",
     desc: [
-      "Worked alongside two other team members to build a Nutrition App that allows health concious individuals to search for recipes or to get three randomly generated recipes, which also shows a user's most recent favorited recipe from Firestore.",
+      "Worked alongside two other team members to build a Nutrition App that allows health concious individuals to search for recipes or to get three randomly generated recipes, which also shows a user's most recent favorited recipe from Firestore as was implemented by one of my team members.",
       "Developed a grid form layout with a gradient background to allow users to search for recipes that have a particular max ready time, or amount of max carbs, max protein and max calories.",
       "Ensured the smooth development of the search and random recipe generator page to display recipes in a 2x2 grid of a 3x1 grid.",
       "Queried the Spoonacular API to show information on recipe cards such as recipe image, summary, link, favorite recipe button, serving amount, ready time, and a nutrition label.",
       "Utilized two API endpoints from the Spoonacular API on both the search and random recipe generator.",
+      "Collaborated with others to write documentation that included project plans, schedule and mission statement as to why we created this app.",
     ],
     tech: [
       "React",
@@ -90,13 +93,23 @@ const projects = [
       "Firebase/Firestore",
       "Google Authentication",
       "Google Fonts",
+      "GitHub",
     ],
     code: [["Github", "https://github.com/joanna-estrada/nutrition"]],
   },
   {
     course: "React Book Wishlist/Tracking Web App (The Book Nook)",
     university: "Loyola Marymount University",
-    // desc: ["I like pie."],
+    desc: [
+      "Developed a complex web app for book enthusiasts which allows users to browse, search, and add books to a bookshelf",
+      "Integrated the Google Books API to allow users to search for books, the NYT Books API to browse for recent best selling books, and Firestore to save books to bookshelves such as 'to-read', 'read', and 'completed' which were implemented from scratch",
+      "Incorporated Chart.js to allow users to track progress of books they are currently reading on a daily basis, which is then displayed on the bookshelf page",
+      "Posterboarded work to others to show accomplishments over the course of the project and to spread awareness about this web app",
+      "Participated in bi-weekly stand-up meetings by presenting a slide deck to show progression of work over time, and tracked goals using a Gantt Chart",
+      "Peer-reviewed other's projects and incorporated their feedback into my own project",
+      "Used Google Authentication to allow users to browse and search while logged out, with the added functionality of maintaining a bookshelf and their reading progress by logging in",
+      "Created an aesthetically pleasing interface by reusing hand-crafted React components, such as card components which display book information such as title, image, price, age rating and more; or clickable/unclickable book covers; which were styled using Tailwind CSS",
+    ],
     tech: [
       "React.js",
       "HTML",
@@ -130,8 +143,21 @@ const projects = [
   {
     course: "Command Line Utility (mkfid - Make File in Directory)",
     university: "Loyola Marymount University",
-    desc: ["I like pie."],
-    tech: ["C", "Unix", "Presentation Skills", "Teamwork"],
+    desc: [
+      "Worked alongside three other team members to develop a command line utility that allows users to create a file within a folder in one line.",
+      "Honed teamwork and communication skills by working together to brainstorm and develop pseudocode, which was then converted to C code.",
+      "Allowed flexibility for users to create multiple files or a single file in a new folder or a folder of a user's choosing via command flags.",
+      "Collaborated with others to brainstorm and implement command flags such as -h for help and -d for directory, which we inspired by other command line utilities.",
+      "Worked with others to write documentation and preliminary project development plans, which were later uploaded to GitHub.",
+    ],
+    tech: [
+      "C",
+      "Unix",
+      "Presentation Skills",
+      "Teamwork",
+      "GitHub",
+      "Research",
+    ],
   },
   {
     course: "Rose Hack",
