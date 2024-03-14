@@ -138,8 +138,15 @@ const projects = [
     university: "Pace University",
     desc: [
       "Designed and developed a fully functional website using the Wix CMS to assist a person with disabilities in showcasing their skills and building their professional network.",
+      "Met with client to discuss interests, skills and work experience in order to build a website that accurately represents them",
       "Bolstered communication skills and developed a good eye for design through constant discussion with a client to build a professional website layout that suited their needs.",
     ],
+    tech: ["Wix CMS", "Prototyping", "Communication Skills"],
+  },
+  {
+    course: "YeeHaw Programming Language",
+    university: "Loyola Marymount University",
+    desc: ["Worked alongside five team members to..."],
   },
   {
     course: "Command Line Utility (mkfid - Make File in Directory)",
