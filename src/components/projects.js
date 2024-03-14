@@ -168,7 +168,12 @@ const projects = [
   {
     course: "LMU Marketplace Mobile App",
     university: "Loyola Marymount University",
-    desc: ["This is currently in progress for Spring 2024."],
+    desc: [
+      "This is currently in progress for Spring 2024.",
+      "Created a React Native mobile app inspired by a business student's app proposal",
+      "Met with business student to discuss user interface design, and functionality of app before app development",
+      "More to come soon, so stay tuned...",
+    ],
     tech: [
       "Software Engineering Principles",
       "Documentation",
