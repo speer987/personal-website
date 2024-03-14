@@ -101,14 +101,15 @@ const projects = [
     course: "React Book Wishlist/Tracking Web App (The Book Nook)",
     university: "Loyola Marymount University",
     desc: [
-      "Developed a complex web app for book enthusiasts which allows users to browse, search, and add books to a bookshelf",
-      "Integrated the Google Books API to allow users to search for books, the NYT Books API to browse for recent best selling books, and Firestore to save books to bookshelves such as 'to-read', 'read', and 'completed' which were implemented from scratch",
+      "Developed a complex web app for book enthusiasts which allows users to browse, search, and add books to bookshelves that are saved to numerous collections on Firestore",
+      "Integrated the Google Books API to allow users to search for books, the NYT Books API to browse for recent best selling books, and Firestore to save books to bookshelves such as 'to-read', 'read', and 'completed', which were implemented from scratch",
       "Incorporated Chart.js to allow users to track progress of books they are currently reading on a daily basis, which is then displayed on the bookshelf page",
       "Posterboarded work to others to show accomplishments over the course of the project and to spread awareness about this web app",
       "Participated in bi-weekly stand-up meetings by presenting a slide deck to show progression of work over time, and tracked goals using a Gantt Chart",
       "Peer-reviewed other's projects and incorporated their feedback into my own project",
       "Used Google Authentication to allow users to browse and search while logged out, with the added functionality of maintaining a bookshelf and their reading progress by logging in",
       "Created an aesthetically pleasing interface by reusing hand-crafted React components, such as card components which display book information such as title, image, price, age rating and more; or clickable/unclickable book covers; which were styled using Tailwind CSS",
+      "Hosted on Firebase Hosting",
     ],
     tech: [
       "React.js",
