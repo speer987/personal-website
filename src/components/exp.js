@@ -1,16 +1,9 @@
 export const experience = [
   {
-    company: "Google",
-    role: "CSSI: Online Student",
-    time: "Summer 2021",
+    company: "Loyola Marymount University",
+    role: "CMSI 3802 (Compilers) Student Teaching Assistant",
+    time: "Spring 2024",
     location: "Los Angeles, California",
-    desc: [
-      "Participated in an in-depth 4-week computer science program for high-achieving students.",
-      "Completed an introductory project-based JavaScript processing and creative coding curriculum taught by Google Engineers and LMU faculty to learn about functions, data types, objects, and 3D graphics.",
-      "Developed 12 individual JavaScript projects alongside Google Engineers, LMU faculty and students.",
-      "Gained valuable professional skills through resume development and SWE interview workshops.",
-      "Presented a final project with Text-to-Speech and Teachable Machine API integration to Google employees, LMU faculty, and community leaders to showcase JavaScript coding and team-work skills.",
-    ],
   },
   {
     company: "Meta",
@@ -24,10 +17,17 @@ export const experience = [
     ],
   },
   {
-    company: "Loyola Marymount University",
-    role: "CMSI 3802 (Compilers) Student Teaching Assistant",
-    time: "Spring 2024",
+    company: "Google",
+    role: "CSSI: Online Student",
+    time: "Summer 2021",
     location: "Los Angeles, California",
+    desc: [
+      "Participated in an in-depth 4-week computer science program for high-achieving students.",
+      "Completed an introductory project-based JavaScript processing and creative coding curriculum taught by Google Engineers and LMU faculty to learn about functions, data types, objects, and 3D graphics.",
+      "Developed 12 individual JavaScript projects alongside Google Engineers, LMU faculty and students.",
+      "Gained valuable professional skills through resume development and SWE interview workshops.",
+      "Presented a final project with Text-to-Speech and Teachable Machine API integration to Google employees, LMU faculty, and community leaders to showcase JavaScript coding and team-work skills.",
+    ],
   },
   {
     company: "The American School of Doha",
