@@ -173,6 +173,9 @@ const projects = [
       "Database Design",
       "Documentation",
       "Database Systems Knowledge",
+      "Kaggle",
+      "Data Science",
+      "Data Cleaning",
     ],
   },
   {
