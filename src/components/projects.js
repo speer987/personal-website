@@ -48,7 +48,7 @@ const projects = [
     ],
   },
   {
-    course: "Compound Interest Calculator Web App",
+    course: "React Compound Interest Calculator Web App",
     university: "Loyola Marymount University",
     desc: [
       "Developed an app by incorporating various HTML and CSS concepts that allow users to calculate their compound interest on a uniform and aesthetically pleasing interface.",
@@ -149,9 +149,24 @@ const projects = [
     desc: ["Worked alongside five team members to..."],
   },
   {
-    course: "Museum of Modern Art Graph Database w/ Command Line Interface",
+    course: "Full Graph Database SDK w/ Command Line Interface",
     university: "Loyola Marymount University",
-    desc: ["Write desc here"],
+    desc: [
+      "Applied concepts learned from writing database queries to answer questions regarding a test dataset",
+      "Created files that align mostly with the CRUD (I implemented dal files to create, update, delete artwork descriptions) for database design based on a Museum of Modern Art Dataset",
+      "Programmed a file that can be called by users on the command line to use various query and CRUD functions from a dal file I wrote. The dal file was based on an example file.",
+      "Made a graph database using Neo4J for archival purposes that allow art historians or others to maintain and artwork database that shows artist nodes pointing to artworks that they worked on",
+      "Programmed files to preprocess data from csv files to then load as nodes and their connections to the Neo4J dashboard.",
+      "Wrote design documentation and made a database schema to show a brief overview of database structure",
+      "Created files that allow aggregate queries, as well as search queries to help users find what they are looking for in the database",
+    ],
+    tech: [
+      "Neo4J",
+      "Python",
+      "Cypher",
+      "Documentation",
+      "Database Systems Knowledge",
+    ],
   },
   {
     course: "Command Line Utility (mkfid - Make File in Directory)",
