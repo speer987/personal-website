@@ -1,5 +1,6 @@
 const projects = [
   {
+    order: 1,
     course: "React Native LMU Marketplace Mobile App",
     university: "Loyola Marymount University",
     desc: [
@@ -20,6 +21,7 @@ const projects = [
     ],
   },
   {
+    order: 2,
     course: "React Book Wishlist/Tracking Web App (The Book Nook)",
     university: "Loyola Marymount University",
     desc: [
@@ -56,6 +58,7 @@ const projects = [
     preview: [["On Firebase Hosting", "https://the-book-nook-5c098.web.app/"]],
   },
   {
+    order: 3,
     course: "YeeHaw Programming Language",
     university: "Loyola Marymount University",
     order: 7,
@@ -68,6 +71,7 @@ const projects = [
     code: [["Github", "https://github.com/alex-armknecht/YeeHaw"]],
   },
   {
+    order: 4,
     course: "Command Line Utility (mkfid - Make File in Directory)",
     university: "Loyola Marymount University",
     desc: [
@@ -94,6 +98,7 @@ const projects = [
     ],
   },
   {
+    order: 5,
     course: "Full Graph Database SDK w/ Command Line Interface",
     university: "Loyola Marymount University",
     desc: [
@@ -118,6 +123,7 @@ const projects = [
     ],
   },
   {
+    order: 6,
     course: "React Nutrition Web App",
     university: "Loyola Marymount University",
     desc: [
@@ -141,6 +147,7 @@ const projects = [
     code: [["Github", "https://github.com/joanna-estrada/nutrition"]],
   },
   {
+    order: 7,
     course: "React Country Data Finder Web App",
     university: "Loyola Marymount University",
     desc: [
@@ -172,6 +179,7 @@ const projects = [
     ],
   },
   {
+    order: 8,
     course: "Compound Interest Calculator Web App",
     university: "Loyola Marymount University",
     desc: [
@@ -199,6 +207,7 @@ const projects = [
     ],
   },
   {
+    order: 9,
     course: "Rose Hack",
     university: "UC Riverside",
     desc: [
@@ -210,6 +219,7 @@ const projects = [
     ],
   },
   {
+    order: 10,
     course: "Medication Tracking Mobile App (BetterHealth App)",
     university: "Loyola Marymount University",
     desc: [
@@ -227,6 +237,7 @@ const projects = [
     ],
   },
   {
+    order: 11,
     course: "Website for Client with Special Needs",
     university: "Pace University",
 
