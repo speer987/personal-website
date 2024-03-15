@@ -48,7 +48,7 @@ const projects = [
     ],
   },
   {
-    course: "React Compound Interest Calculator Web App",
+    course: "Compound Interest Calculator Web App",
     university: "Loyola Marymount University",
     desc: [
       "Developed an app by incorporating various HTML and CSS concepts that allow users to calculate their compound interest on a uniform and aesthetically pleasing interface.",
@@ -78,12 +78,12 @@ const projects = [
     course: "React Nutrition Web App",
     university: "Loyola Marymount University",
     desc: [
-      "Worked alongside two other team members to build a Nutrition App that allows health concious individuals to search for recipes or to get three randomly generated recipes, which also shows a user's most recent favorited recipe from Firestore as was implemented by one of my team members.",
+      "Worked alongside two other team members to build a React web app that helps health concious individuals search for recipes, get three randomly generated recipes, or see their most recent favorited recipe from Firestore (which was implemented by one of my team members).",
       "Developed a grid form layout with a gradient background to allow users to search for recipes that have a particular max ready time, or amount of max carbs, max protein and max calories.",
       "Ensured the smooth development of the search and random recipe generator page to display recipes in a 2x2 grid of a 3x1 grid.",
-      "Queried the Spoonacular API to show information on recipe cards such as recipe image, summary, link, favorite recipe button, serving amount, ready time, and a nutrition label.",
-      "Utilized two API endpoints from the Spoonacular API on both the search and random recipe generator.",
-      "Collaborated with others to write documentation that included project plans, schedule and mission statement as to why we created this app.",
+      "Queried the Spoonacular API to show information on recipe cards such as recipe title, recipe image, summary, link, favorite recipe button, serving amount, ready time, and a nutrition label.",
+      "Utilized two API endpoints (four in total) from the Spoonacular API on each of the following pages: search and random recipe generator.",
+      "Collaborated with team members to write documentation that included project plans, schedule and mission statement as to why we created this app.",
     ],
     tech: [
       "React",
@@ -146,7 +146,13 @@ const projects = [
   {
     course: "YeeHaw Programming Language",
     university: "Loyola Marymount University",
-    desc: ["Worked alongside five team members to..."],
+    desc: [
+      "Worked alongside five team members to create a cowboy themed programming language called YeeHaw, which supports loops, nesting, static typing, and OOP.",
+      "Programmed parts of the analyzer and compiler, added some test code to the analyzer, and some example code with references to JavaScript syntax in a README.md file.",
+      "Learn the basics of the Ohm language for creating grammars",
+    ],
+    tech: ["Ohm", "JavaScript"],
+    code: [["Github", "https://github.com/alex-armknecht/YeeHaw"]],
   },
   {
     course: "Full Graph Database SDK w/ Command Line Interface",
@@ -164,6 +170,7 @@ const projects = [
       "Neo4J",
       "Python",
       "Cypher",
+      "Database Design",
       "Documentation",
       "Database Systems Knowledge",
     ],
@@ -187,15 +194,26 @@ const projects = [
       "GitHub",
       "Research",
     ],
+    code: [
+      [
+        "Github",
+        "https://github.com/Sarronnn/CMSI-3510_Tadesse-Ramchandran-Peer-Abrams",
+      ],
+    ],
   },
   {
     course: "Rose Hack",
     university: "UC Riverside",
-    // desc: [],
+    desc: [
+      "Worked on the HTML and CSS for front page of a web app that seeks to educate users about hydroponics.",
+    ],
     tech: ["CSS", "HTML", "Teamwork"],
+    preview: [
+      ["On DevPost", "https://devpost.com/software/hydroponics-website"],
+    ],
   },
   {
-    course: "LMU Marketplace Mobile App",
+    course: "React Native LMU Marketplace Mobile App",
     university: "Loyola Marymount University",
     desc: [
       "This is currently in progress for Spring 2024.",
