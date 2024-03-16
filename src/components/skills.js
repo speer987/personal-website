@@ -1,6 +1,6 @@
 const skills = [
   "Python",
-  "React.js",
+  "React",
   "Java",
   "C",
   "JavaScript",
@@ -8,5 +8,11 @@ const skills = [
   "SQL",
   "Firebase",
   "Firestore",
+  "Communication Skills",
+  "Presentation Skills",
+  "Teamwork",
+  "R",
+  "React Native",
+  "Prototyping",
 ];
 export default skills;
