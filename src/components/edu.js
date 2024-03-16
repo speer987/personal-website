@@ -22,6 +22,8 @@ const degrees = [
       "Introduction to Probability and Statistics",
       "Applied Statistics",
       "Multivariable Statistics",
+      "Senior Project 1",
+      "Senior Project 2",
     ],
     honors: [
       "Tau Sigma National Honors Society Nominee",
