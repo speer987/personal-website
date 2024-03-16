@@ -27,8 +27,7 @@ const degrees = [
     ],
     honors: [
       "Tau Sigma National Honors Society Nominee",
-      "Dean’s List (Fall 2021)",
-      "Dean’s List (Spring 2022)",
+      "Dean’s List (Fall 2021, Spring 2022, Fall 2022, Fall 2023)",
     ],
   },
   {
@@ -47,8 +46,7 @@ const degrees = [
     honors: [
       "Pforzheimer Honors College",
       "National Society of Leadership and Success Nominee",
-      "Dean’s List (Fall 2020)",
-      "Dean’s List (Spring 2021)",
+      "Dean’s List (Fall 2020, Spring 2021)",
     ],
   },
 ];
