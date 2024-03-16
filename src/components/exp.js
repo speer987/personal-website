@@ -32,6 +32,10 @@ export const experience = [
   {
     company: "The American School of Doha",
     role: "Student Teaching Assistant",
-    // desc: [],
+    desc: [
+      "As a high schooler, worked alongside elementary school students and their technology teacher to teach basics of programming through iPad apps.",
+      "Sometimes helped students build robots when they needed help, and supervised groups of students and their robots' behaviors when testing them.",
+      "Sorted Lego peices in their respective boxes so that it was easier for students to find pieces to build their robots.",
+    ],
   },
 ];
