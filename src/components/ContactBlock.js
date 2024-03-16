@@ -1,7 +1,7 @@
 export default function ContactBlock() {
   return (
     <div id="contact">
-      <a href="https://linkedin.com/saarah-peer" target="_blank">
+      <a href="www.linkedin.com/in/saarah-peer" target="_blank">
         <button id="linkedin">
           <i class="fa fa-linkedin"></i>
         </button>
