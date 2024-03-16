@@ -14,5 +14,8 @@ const skills = [
   "R",
   "React Native",
   "Prototyping",
+  "Tailwind CSS",
+  "React Native Paper",
+  "CSS",
 ];
 export default skills;
