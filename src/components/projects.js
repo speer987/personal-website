@@ -4,10 +4,12 @@ const projects = [
     course: "React Native LMU Marketplace Mobile App",
     university: "Loyola Marymount University",
     desc: [
-      "This is currently in progress for Spring 2024.",
-      "Created a React Native mobile app inspired by a business student's app proposal",
-      "Met with business student to discuss user interface design, and functionality of app before app development",
-      "More to come soon, so stay tuned...",
+      "Created a React Native mobile app inspired by a business student's app proposal.",
+      "Met with said business student to discuss user interface design, and functionality of app before app development.",
+      "Designed a Figma Prototype which I shared with a business student before app development, which showed various capabilities of the app to be built, with pages such as Favorite Listings, User Listings, Create a Listing, and All Listings Page.",
+      "Used Firebase/Firestore to keep track of Listings, as well as account details such as when a user joined the platform.",
+      "Used Clerk Authentication to allow students to sign in using both their Outlook and Google Accounts. Those with Outlook Accounts had a verified checkmark next to their name when listing an item.",
+      "Item Listings provided a way for users to find information such as a photo of the item, price, and description about an item being sold, but were able to get more information in another pop-up on each listing.",
     ],
     tech: [
       "Software Engineering Principles",
