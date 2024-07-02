@@ -15,7 +15,7 @@ function App() {
       <div id="body-wo-footer">
         <Header
           role={
-            "Computer Science major and Statistics & Data Science minor at Loyola Marymount University"
+            "Class of 2024 Computer Science major and Statistics & Data Science minor at Loyola Marymount University"
           }
         />
         <NavBar />
